@@ -6,7 +6,10 @@
 int main()
 {
     std::cout << "Hello World!\n";
-    std::cout << "Woah! Another line!\n";
+	if (1+1 > 1)
+	{
+		std::cout << "Woah! Another line!\n";
+	}
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
